@@ -1,0 +1,89 @@
+article{
+	font-style: italic;
+	text-align :justify;
+	padding-top: 50px
+    
+}
+header{
+	font-style: italic;
+	text-align : center;
+	font-style: oblique; 
+	text-align :  center;
+}
+nav{
+	font-style: italic;
+	color:black;
+	font-size : 22px;
+	background-color: #f1f1f1;
+}
+.about{
+	font-style: italic;
+	color:black;
+	font-size : 15px;
+	
+}
+.abme{
+	font-style: italic;
+	color:black;
+	font-size : 15px;
+
+	
+}
+.section-header{
+	font-style: italic;
+	color:black;
+	border-bottom: 6px;
+}
+.aside-header{
+	font-style: italic;
+	color:black;
+	font-size : 15px;
+	border-bottom: 6px ;
+}
+#present-section{
+	font-style: italic;
+	color: black;
+	font-size:16px;
+}
+#past-section{
+font-style: italic;
+font-size:15px;
+color:black;
+}
+#future-section{
+font-style: italic;
+padding: 3px;
+font-size:15px;
+}
+#image{
+	height:400px;
+	width:300px;
+  }
+body{
+	font-style: italic;
+	background-image:url("images.jpg");
+	background-repeat: no-repeat;
+	background-size: 300%;
+}
+ol li{
+	font-style: italic;
+	padding: 15px;
+	color: black;
+}
+i{
+	margin-top:100px;
+    margin-left:220px;
+}
+form{
+	margin-top: 100px;
+	margin-left: 500px;
+	font-size: 20px;
+}
+
+footer{
+	font-size: 20px;
+	color: black;
+	font-style: italic;
+	font-style: oblique;
+	text-align : right;
+	}
