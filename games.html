@@ -1,44 +1,56 @@
-!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-  <title>TicTacToe</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="games.css">
-
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="input-UA-Compatible" content="IE=edge">
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+ Style CSS -->
+    <link rel="stylesheet" href="games.css">
 </head>
-
 <body>
-  <header>
-    <h1>Tic Tac Toe</h1>
-  </header>
-  <main>
-    <section id="upper-left"> </section>
-    <section id="upper-mid"> </section>
-    <section id="upper-right"> </section>
-
-    <section id="center-left"> </section>
-    <section id="center-mid"> </section>
-    <section id="center-right"> </section>
-
-    <section id="lower-left"> </section>
-    <section id="lower-mid"> </section>
-    <section id="lower-right"> </section>
-  </main>  
-  <footer>
-    <h4>
-      <span>&copy Professor Case 2018</span>
-      <span>&diams;</span>
-      <a href="https://github.com/profcase/web-tic-tac-toe">Source</a>
-      <span>&diams;</span>
-      <a href="https://profcase.github.io/web-tic-tac-toe/">Demo</a>
-    </h4>
-
-  </footer>
-  <script src="./game.js" defer></script>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#">Susritha Gade</a>
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand"  href="#">Length Convertor</a>
+          <a class="navbar-brand" href="contact.html">Contact</a>
+          
+        
+      </div>
+    </div>
+  </nav>
+	<div class="container1">
+		
+	</div>
+	<center>
+    <br>
+    <p><h2>UNIT CONVERTER</h2></p>
+	<p> 
+		<!-- first select -->
+		<select id="selectInput" class="select" onChange="selectFunction()">
+			<option value="m">Meters</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Milimeters</option>
+		</select>
+	</p>
+	<!-- first input -->
+	<p><input id="input" class="input" type="number" onInput="lengthConverter()" onChange="lengthConverter()"></input></p>
+	<p>
+		<!-- second select -->
+		<select id="selectOutput" class="select" onChange="selectFunction()">
+			<option value="m">Meters</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Milimeters</option>
+		</select>
+	</p>
+	<!-- second input -->
+	<p><input id="output" class="input" type="number" onInput="reverseConverter()" onChange="reverseConverter()"></input></p>
+  </center>
+  <script src="game.js"></script>
 
 </body>
-
 </html>
